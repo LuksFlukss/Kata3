@@ -21,7 +21,7 @@ import org.jfree.ui.ApplicationFrame;
  */
 public class HistogramDisplay extends ApplicationFrame{
     
-    public HistogramDisplay(String title) {
+    public HistogramDisplay(Histogram<String> histogram ,String title) {
         super(title);
         setContentPane(createPanel());
         pack();
